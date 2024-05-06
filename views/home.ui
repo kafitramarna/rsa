@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>649</width>
-    <height>466</height>
+    <width>713</width>
+    <height>455</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,7 +32,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>210</x>
      <y>50</y>
      <width>261</width>
      <height>31</height>
@@ -42,7 +42,7 @@
     <string notr="true">font: 63 14pt &quot;Poppins SemiBold&quot;;</string>
    </property>
    <property name="text">
-    <string>APLIKASI VIGENERE CHIPER</string>
+    <string>APLIKASI AFFINE CHIPER</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -199,12 +199,12 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="txtKey">
+  <widget class="QLineEdit" name="txtM">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>260</x>
      <y>220</y>
-     <width>241</width>
+     <width>81</width>
      <height>31</height>
     </rect>
    </property>
@@ -233,8 +233,8 @@
    <property name="geometry">
     <rect>
      <x>520</x>
-     <y>220</y>
-     <width>101</width>
+     <y>180</y>
+     <width>141</width>
      <height>31</height>
     </rect>
    </property>
@@ -246,8 +246,8 @@
    <property name="geometry">
     <rect>
      <x>520</x>
-     <y>260</y>
-     <width>101</width>
+     <y>220</y>
+     <width>141</width>
      <height>31</height>
     </rect>
    </property>
@@ -259,13 +259,81 @@
    <property name="geometry">
     <rect>
      <x>520</x>
-     <y>300</y>
-     <width>101</width>
+     <y>340</y>
+     <width>141</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
     <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>230</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>M</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>230</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>B</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtB">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>220</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnKunciEncrypt">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>260</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tampilkan Kunci Enkripsi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnKunciDecrypt">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tampilkan Kunci Dekripsi</string>
    </property>
   </widget>
  </widget>

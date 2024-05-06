@@ -26,7 +26,7 @@
     <string notr="true">font: 63 14pt &quot;Poppins SemiBold&quot;;</string>
    </property>
    <property name="text">
-    <string>TUGAS 3 MATA KULIAH KRIPTOGRAFI DAN KEAMANAN SISTEM</string>
+    <string>TUGAS 4 MATA KULIAH KRIPTOGRAFI DAN KEAMANAN SISTEM</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">

@@ -18,7 +18,7 @@
     <rect>
      <x>40</x>
      <y>20</y>
-     <width>601</width>
+     <width>611</width>
      <height>31</height>
     </rect>
    </property>
@@ -26,13 +26,13 @@
     <string notr="true">font: 63 14pt &quot;Poppins SemiBold&quot;;</string>
    </property>
    <property name="text">
-    <string>TUGAS 4 MATA KULIAH KRIPTOGRAFI DAN KEAMANAN SISTEM</string>
+    <string>TUGAS UTS MATA KULIAH KRIPTOGRAFI DAN KEAMANAN SISTEM</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>260</x>
      <y>50</y>
      <width>261</width>
      <height>31</height>
@@ -42,7 +42,7 @@
     <string notr="true">font: 63 14pt &quot;Poppins SemiBold&quot;;</string>
    </property>
    <property name="text">
-    <string>APLIKASI AFFINE CHIPER</string>
+    <string>APLIKASI RSA</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -77,27 +77,11 @@
     <string>PLAINTEXT</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>230</y>
-     <width>91</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
-   </property>
-   <property name="text">
-    <string>KEY</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>270</y>
+     <y>230</y>
      <width>91</width>
      <height>16</height>
     </rect>
@@ -113,7 +97,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>310</y>
+     <y>270</y>
      <width>91</width>
      <height>16</height>
     </rect>
@@ -141,7 +125,7 @@
     <string>:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_9">
+  <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -157,27 +141,11 @@
     <string>:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_10">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>270</y>
-     <width>16</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
-   </property>
-   <property name="text">
-    <string>:</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>310</y>
+     <y>270</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -199,21 +167,11 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="txtM">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>220</y>
-     <width>81</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="txtChiper">
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>260</y>
+     <y>220</y>
      <width>241</width>
      <height>31</height>
     </rect>
@@ -223,7 +181,7 @@
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>300</y>
+     <y>260</y>
      <width>241</width>
      <height>31</height>
     </rect>
@@ -233,7 +191,7 @@
    <property name="geometry">
     <rect>
      <x>520</x>
-     <y>180</y>
+     <y>220</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -246,7 +204,7 @@
    <property name="geometry">
     <rect>
      <x>520</x>
-     <y>220</y>
+     <y>260</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -268,62 +226,7 @@
     <string>Clear</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_12">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>230</y>
-     <width>21</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
-   </property>
-   <property name="text">
-    <string>M</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_13">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>230</y>
-     <width>21</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
-   </property>
-   <property name="text">
-    <string>B</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="txtB">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>220</y>
-     <width>81</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btnKunciEncrypt">
-   <property name="geometry">
-    <rect>
-     <x>520</x>
-     <y>260</y>
-     <width>141</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Tampilkan Kunci Enkripsi</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btnKunciDecrypt">
+  <widget class="QPushButton" name="btnGenerateKeys">
    <property name="geometry">
     <rect>
      <x>520</x>
@@ -333,7 +236,91 @@
     </rect>
    </property>
    <property name="text">
-    <string>Tampilkan Kunci Dekripsi</string>
+    <string>Generate Key</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPublicKey">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>300</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>310</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PUBLIC KEY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PRIVATE KEY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPrivateKey">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>340</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>350</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 12pt &quot;Poppins Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>:</string>
    </property>
   </widget>
  </widget>
